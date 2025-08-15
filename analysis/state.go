@@ -94,8 +94,8 @@ func hoverText(word, definition string) string {
 
 func (s *State) TextDocumentCompletion(id int, uri string) lsp.CompletionResponse {
 	if items == nil {
-		LoadCompletionItems("./data/words-large.txt")
-		LoadCompletionItems("./data/words-medium.txt")
+		LoadCompletionItems("/home/shivang/personal/vani/data/words-large.txt")
+		LoadCompletionItems("/home/shivang/personal/vani/data/words-medium.txt")
 	}
 	return lsp.CompletionResponse{
 		Response: lsp.Response{

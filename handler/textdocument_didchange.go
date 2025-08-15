@@ -3,6 +3,7 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
+	"strings"
 
 	"github.com/ShivangSrivastava/vani/analysis"
 	"github.com/ShivangSrivastava/vani/logger"
@@ -17,6 +18,9 @@ func handleTextDocumentDidChange(state analysis.State, contents []byte) {
 	}
 
 	logger.Info(fmt.Sprintf("Changed: %v", request.Params.TextDocument.URI))
+	if !strings.HasPrefix(request.Params.TextDocument.URI, "file") {
+		return
+	}
 	for _, change := range request.Params.ContentChanges {
 		state.UpdateDocument(request.Params.TextDocument.URI, change.Text)
 	}
