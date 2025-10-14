@@ -1,6 +1,6 @@
 package lsp
 
-import "github.com/ShivangSrivastava/vani/data"
+import "github.com/shv-ng/vani/data"
 
 // https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#initialize
 type InitializeRequest struct {

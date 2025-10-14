@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ShivangSrivastava/vani/analysis"
-	"github.com/ShivangSrivastava/vani/data"
-	"github.com/ShivangSrivastava/vani/handler"
-	"github.com/ShivangSrivastava/vani/logger"
-	"github.com/ShivangSrivastava/vani/rpc"
+	"github.com/shv-ng/vani/analysis"
+	"github.com/shv-ng/vani/data"
+	"github.com/shv-ng/vani/handler"
+	"github.com/shv-ng/vani/logger"
+	"github.com/shv-ng/vani/rpc"
 )
 
 func main() {

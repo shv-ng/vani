@@ -1,13 +1,13 @@
 package handler
-
+shv-ng
 import (
 	"encoding/json"
 	"fmt"
 	"os"
 
-	"github.com/ShivangSrivastava/vani/analysis"
-	"github.com/ShivangSrivastava/vani/logger"
-	"github.com/ShivangSrivastava/vani/lsp"
+	"github.com/shv-ng/vani/analysis"
+	"github.com/shv-ng/vani/logger"
+	"github.com/shv-ng/vani/lsp"
 )
 
 func handleInitialize(_ analysis.State, contents []byte) {

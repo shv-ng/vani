@@ -3,7 +3,7 @@ package rpc_test
 import (
 	"testing"
 
-	"github.com/ShivangSrivastava/vani/rpc"
+	"github.com/shv-ng/vani/rpc"
 )
 
 type EncodingExample struct {

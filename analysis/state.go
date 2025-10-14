@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ShivangSrivastava/vani/data"
-	"github.com/ShivangSrivastava/vani/logger"
-	"github.com/ShivangSrivastava/vani/lsp"
+	"github.com/shv-ng/vani/data"
+	"github.com/shv-ng/vani/logger"
+	"github.com/shv-ng/vani/lsp"
 )
 
 // State store data of each files, in form of map.

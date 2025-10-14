@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ShivangSrivastava/vani/analysis"
-	"github.com/ShivangSrivastava/vani/logger"
-	"github.com/ShivangSrivastava/vani/rpc"
+	"github.com/shv-ng/vani/analysis"
+	"github.com/shv-ng/vani/logger"
+	"github.com/shv-ng/vani/rpc"
 )
 
 var handlers = map[string]func(analysis.State, []byte){

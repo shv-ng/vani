@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ShivangSrivastava/vani/analysis"
-	"github.com/ShivangSrivastava/vani/logger"
-	"github.com/ShivangSrivastava/vani/lsp"
+	"github.com/shv-ng/vani/analysis"
+	"github.com/shv-ng/vani/logger"
+	"github.com/shv-ng/vani/lsp"
 )
 
 func handleTextDocumentDidChange(state analysis.State, contents []byte) {

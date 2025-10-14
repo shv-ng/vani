@@ -10,6 +10,6 @@ func GetData() Data {
 	return Data{
 		ServerName:     "vani",
 		Version:        "0.0.1",
-		RepositoryLink: "https://github.com/ShivangSrivastava/vani",
+		RepositoryLink: "https://github.com/shv-ng/vani",
 	}
 }
